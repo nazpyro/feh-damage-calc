@@ -586,6 +586,26 @@ var weaponInfo =
 		"range"   : 1,
 		"magical" : true
 	},
+	"Firesweep Bow" : {
+		"color"   : "Colorless",
+		"type"    : "Bow",
+		"might"   : 7,
+		"range"   : 2,
+		"magical" : false,
+		"move_effective" : "Flying",
+		"description" : "Effective against flying units. Unit and enemies cannot use counterattacks.",
+		"prevent_counter" : true
+	},
+	"Firesweep Bow+" : {
+		"color"   : "Colorless",
+		"type"    : "Bow",
+		"might"   : 11,
+		"range"   : 2,
+		"magical" : false,
+		"move_effective" : "Flying",
+		"description" : "Effective against flying units. Unit and enemies cannot use counterattacks.",
+		"prevent_counter" : true
+	},
 	"Flametongue (Blue)" : {
 		"color"   : "Blue",
 		"type"    : "Blue Breath",
@@ -1111,6 +1131,16 @@ var weaponInfo =
 			"res" : -6
 		}
 	},
+	"Ragnell" : {
+		"color"   : "Red",
+		"type"    : "Sword",
+		"might"   : 16,
+		"range"   : 1,
+		"magical" : false,
+		"description" : "Enables wielder to counter-attack regardless of attacker's range.",
+		"counter" : true,
+		"char_unique" : true
+	},
 	"Raijinto" : {
 		"color"   : "Red",
 		"type"    : "Sword",
@@ -1189,8 +1219,7 @@ var weaponInfo =
 		"type"    : "Green Tome",
 		"might"   : 13,
 		"range"   : 2,
-		"magical" : true,
-		"char_unique" : true
+		"magical" : true
 	},
 	"Rogue Dagger" : {
 		"color"   : "Colorless",
@@ -1472,8 +1501,7 @@ var weaponInfo =
 		"type"    : "Blue Tome",
 		"might"   : 13,
 		"range"   : 2,
-		"magical" : true,
-		"char_unique" : true
+		"magical" : true
 	},
 	"Thunder" : {
 		"color"   : "Blue",
